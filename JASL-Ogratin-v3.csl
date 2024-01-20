@@ -3,12 +3,12 @@
   <info>
     <title>JASL-Ogratin</title>
     <title-short>JASL</title-short>
-    <id>https://csl.mendeley.com/styles/647247261/JASL-Ogratin-v3</id>
-    <updated>2024-01-20T11:33:11+00:00</updated>
+    <id>https://csl.mendeley.com/styles/647247261/JASL-Ogratin-v5</id>
     <contributor>
       <name>Kyosuke Ogura</name>
       <email>ogratinNULaw@gmail.com</email>
     </contributor>
+    <updated>2024-01-20T12:02:28+00:00</updated>
   </info>
   <locale xml:lang="en">
     <terms>
@@ -160,7 +160,7 @@
         </choose>
       </else-if>
       <else>
-        <names variable="composer" delimiter=", ">
+        <names variable="composer">
           <name form="short" and="symbol" delimiter=", " initialize-with=". "/>
           <substitute>
             <names variable="author"/>
@@ -1470,10 +1470,10 @@
             </group>
           </if>
           <else>
-            <group delimiter=", ">
+            <group>
               <text macro="author-intext"/>
               <text macro="date-intext"/>
-              <text macro="citation-locator"/>
+              <text variable="page" prefix=": "/>
             </group>
           </else>
         </choose>
@@ -1518,4 +1518,3 @@
     </layout>
   </bibliography>
 </style>
-
