@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
-    <title>JASL-Ogratin-v3 - Kyosuke Ogura</title>
+    <title>JASL-Ogratin</title>
     <title-short>JASL</title-short>
-    <id>http://csl.mendeley.com/styles/647247261/JASL-Ogratin-v3</id>
+    <id>https://csl.mendeley.com/styles/647247261/JASL-Ogratin-v5</id>
+    <updated>2024-01-20T11:33:11+00:00</updated>
     <contributor>
       <name>Kyosuke Ogura</name>
-      <uri/>
       <email>ogratinNULaw@gmail.com</email>
     </contributor>
-    <updated>2024-01-20T10:08:41+00:00</updated>
   </info>
   <locale xml:lang="en">
     <terms>
@@ -1519,3 +1518,4 @@
     </layout>
   </bibliography>
 </style>
+
